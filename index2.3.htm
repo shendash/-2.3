@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Программа, рассчитывающая чистую зарплату с учётом налоговых вычетов.</title>
+</head>
+<body>
+    <script>
+        function zarp(){
+             var x = prompt("Введите ваш оклад.");
+                if(x < 100000)
+                 {
+                     alert("Ваша зарплата равна " + x*0.35 + " рублей.");
+                 }
+                   else if (x > 100000)
+                     {
+                        alert("Ваша зарплата равна " + x*0.45 + " рублей.");
+                     }
+        }
+                 zarp()   
+    </script>
+</body>
+</html>
